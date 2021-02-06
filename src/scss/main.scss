@@ -2,7 +2,10 @@
 // @import "tailwindcss/components";
 // @import "tailwindcss/utilities";
 @import "~bootstrap/scss/bootstrap";
+@import "examples";
+@import "bootstrap-widget";
+@import "tailwinds-widget";
 
 h1 {
-  color: green; 
+  color: green;
 }
