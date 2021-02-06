@@ -1,0 +1,36 @@
+{
+  "name": "webpacked-css-libraries",
+  "version": "0.0.1",
+  "description": "css library examples",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "sass": "node-sass -w src/scss/ -o public/assets/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "bootstrap": "^4.6.0",
+    "css-loader": "^5.0.1",
+    "jquery": "^3.5.1",
+    "node-sass": "^5.0.0",
+    "popper.js": "^1.16.1",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.0.2",
+    "webpack": "^5.19.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.1",
+    "postcss": "^8.2.4",
+    "postcss-loader": "^4.2.0",
+    "precss": "^4.0.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
